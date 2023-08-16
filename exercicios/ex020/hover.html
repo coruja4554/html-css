@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: aliceblue;
+            background-color: aqua;
+            width: 90px;
+            height: 80px;
+        }
+       
+        div:hover {
+            color: blue;
+        }
+
+        BODY {
+            background-image: linear-gradient(to left, blue, pink );
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <div>
+        hardware
+        <p>memoria ram</p>
+        <p>fonte</p>
+        <p>processador</p>
+
+    </div>
+    <p>MAIS</p>
+    
+</body>
+</html>
