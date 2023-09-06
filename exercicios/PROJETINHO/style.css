@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+div#gojo {
+    background-image: url(imagens/SATORU\ GOJAO\ 1.webp);
+    border-radius: 16%;
+    width: 100px;
+   height: 200px;
+   background-size: 170% 90%;
+   background-repeat: no-repeat;
+   background-position: center center;
+   position: absolute;
+
+   
+
+   transform: translate(0%, -5%);
+   
+
+   
+
+}
+
+div#gojo2 {
+    background-image: url(imagens/GOJO2.avif);
+    border-radius: 16%;
+    width: 100px;
+    height: 200px;
+    background-size: 170% 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    position: absolute;
+
+    transform: translate(100%, -5%);
+}
+
+div#gojo1 {
+    background-image: url(imagens/GOJO3.jpeg);
+    border-radius: 16%;
+    height: 200px;
+    width: 100px;
+    background-size: 130% 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    position: absolute;
+
+    left: 50%;
+            top: 50%;
+
+    transform: translate(-280%, -91%);
+}
+
+div#gojo3 {
+    background-color: rgba(255, 0, 0, 0.668);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+
+            left: 50%;
+            top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+div#gojo4{
+    background-color: rgba(21, 0, 255, 0.507);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+
+            left: 50%;
+            top: 50%;
+
+    transform: translate(-50%, -42%);
+}
