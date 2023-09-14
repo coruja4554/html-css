@@ -6,7 +6,10 @@
 }
 
 body {
-    background-color: black;
+    background-image: url(imagens/GOJO6.jpg);
+    background-repeat: no-repeat;
+    background-size: 180vh;
+    
 }
 
 div#gojo {
@@ -21,7 +24,7 @@ div#gojo {
 
    
 
-   transform: translate(0%, -5%);
+   transform: translate(0%, -16%);
    
 
    
@@ -39,7 +42,7 @@ div#gojo2 {
 
     position: absolute;
 
-    transform: translate(100%, -5%);
+    transform: translate(100%, -26%);
 }
 
 div#gojo1 {
@@ -53,14 +56,13 @@ div#gojo1 {
 
     position: absolute;
 
-    left: 50%;
-            top: 50%;
 
-    transform: translate(-280%, -91%);
+
+    transform: translate(0%, 65%);
 }
 
 div#gojo3 {
-    background-color: rgba(255, 0, 0, 0.668);
+    background-color: rgba(255, 0, 0, 0.518);
     display: inline-block;
     width: 200px;
     height: 200px;
@@ -70,7 +72,7 @@ div#gojo3 {
             left: 50%;
             top: 50%;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-28%, -40%);
 }
 
 div#gojo4{
@@ -84,5 +86,42 @@ div#gojo4{
             left: 50%;
             top: 50%;
 
-    transform: translate(-50%, -42%);
+    transform: translate(-32%, -42%);
 }
+
+div#gojo5 {
+    background-image: url(imagens/GOJO4.jpeg);
+    width: 100px;
+    height: 200px;
+    background-size: 170% 90%;
+    position: absolute;
+    border-radius: 16%;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    transform: translate(100%, 64%);
+
+
+}
+
+div#gojo6 {
+    background-image: linear-gradient(to top, purple,transparent);
+    width: 290px;
+    position: absolute;
+    border-radius: 2px;
+    font-weight: bold;
+
+    left: 50%;
+    left: 50%;
+    
+
+    transform: translate(-30%, -220%);
+    
+}
+
+a {
+    text-decoration: none;
+    padding-left: 5px;
+    color: black;
+}
+
