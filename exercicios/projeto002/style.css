@@ -5,6 +5,10 @@
     margin: 0px;
 }
 
+body {
+    background-color: aquamarine;
+}
+
 header {
     background-color: black;
     width: 100%;
@@ -14,14 +18,25 @@ header {
 }
 
 h1 {
-    padding-top: 50px;
+    padding-top: 36px;
     font-weight: 900;
+    padding-bottom: 4px;
+    font-size: 50px;
 }
 
 a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
+}
+
+.prim {
+    padding: 100px;
+    font-size: 26px;
+    padding-left: 27px;
+    background-color: white;
+    padding-bottom: 160px;
+    line-height: 50px;
 }
 
 
