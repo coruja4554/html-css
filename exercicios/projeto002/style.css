@@ -7,6 +7,7 @@
 
 body {
     background-color: aquamarine;
+    display: block;
 }
 
 header {
@@ -28,15 +29,76 @@ a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
+    
 }
 
-.prim {
-    padding: 100px;
-    font-size: 26px;
+a:hover {
+    text-decoration: underline;
+
+}
+
+div {
+    display: block;
+    padding: 50px;
+    font-size: 20px;
     padding-left: 27px;
     background-color: white;
     padding-bottom: 160px;
-    line-height: 50px;
+    line-height: 40px;
+    font-weight: bolder;
 }
+
+.imag {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.imag > p {
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.514);
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+div > p {
+    padding-bottom: 50px;
+     
+}
+
+.imag2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imag2 > p {
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.514);
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+footer > p {
+    font-size: 18px;
+    
+}
+
+
+
+
+
 
 
