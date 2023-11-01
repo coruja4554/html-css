@@ -33,16 +33,24 @@
             box-shadow: 1px 3px 1px 1px rgba(0, 0, 255, 0.397)
             
         }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(169, 169, 169, 0.432);
+        }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>Poulação das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
 
         </thead>
@@ -65,7 +73,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td>99 000 000</td>
             </tr>
 
